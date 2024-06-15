@@ -1,6 +1,5 @@
 import { Icon2 } from "@/compornents/Icons";
 import Head from "next/head";
-import { motion } from "framer-motion";
 
 export default function Home() {
   return (
@@ -24,7 +23,6 @@ export default function Home() {
             ホームページに入った時、ユーザーのデバイスがダークモード設定中ならダークモードに。切り替えボタンをクリックするとダークモード/ライトモード切り替え可能。
           </p>
         </div>
-        <motion.div animate={{ x: 100 }} />
       </main>
     </>
   );
